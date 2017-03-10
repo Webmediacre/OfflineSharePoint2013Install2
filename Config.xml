@@ -1,0 +1,9 @@
+<Configuration>
+	<SQLServer>SPSQL01</SQLServer>
+	<SQLUsername>DomainName\SVC_SPFarm</SQLUsername>
+	<SQLPassword>Password1!</SQLPassword>
+	<ConfigDB>SP_Config</ConfigDB>
+	<AdminDB>SP_Admin</AdminDB>
+	<Port>9999</Port>
+	<PassPhrase>Password2!</PassPhrase>
+</Configuration>

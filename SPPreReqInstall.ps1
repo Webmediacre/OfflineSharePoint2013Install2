@@ -1,0 +1,3 @@
+param([string] $SharePoint2013Path = $(Read-Host -Prompt "Please enter the directory path to where your SharePoint 2013 pre-req installation files exist.")) 
+   
+Start-Process "D:\PrerequisiteInstaller.exe" -ArgumentList "/SQLNCli:$SharePoint2013Path\sqlncli.msi /IDFX:$SharePoint2013Path\Windows6.1-KB974405-x64.msu /IDFX11:$SharePoint2013Path\MicrosoftIdentityExtensions-64.msi /Sync:$SharePoint2013Path\Synchronization.msi /AppFabric:$SharePoint2013Path\WindowsServerAppFabricSetup_x64.exe /KB2671763:$SharePoint2013Path\AppFabric1.1-RTM-KB2671763-x64-ENU.exe /MSIPCClient:$SharePoint2013Path\setup_msipc_x64.msi /WCFDataServices:$SharePoint2013Path\WcfDataServices.exe"

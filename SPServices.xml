@@ -1,0 +1,31 @@
+<Configuration>
+	<DatabaseServerName>SPSQL01</DatabaseServerName>
+	<ServiceApplicationAppPoolName>SharePoint Hosted Services</ServiceApplicationAppPoolName>
+	<SecureStoreAppPoolName>SharePoint Secure Store Services</SecureStoreAppPoolName>
+	<AppPoolAcct>DomainName\SVC_SPSvcPool</AppPoolAcct>
+	<SecureStoreAppPoolAcct>DomainName\SVC_SPSecStr</SecureStoreAppPoolAcct>
+	
+	<ExcelSAName>Excel Service Application</ExcelSAName>
+	<MetaDataSAName>Metadata Service Application</MetaDataSAName>
+	<MetaDataDatabaseName>SP_Service_Metadata</MetaDataDatabaseName>
+	<SecureStoreSAName>Secure Store Service Application</SecureStoreSAName>
+	<SecureStoreDatabaseName>SP_Service_SecureStore</SecureStoreDatabaseName>
+	<UsageSAName>Usage and Health Data Collection Service Application</UsageSAName>
+	<UsageDatabaseName>SP_Service_Usage</UsageDatabaseName>
+	<UsageLogLocation>E:\SharePoint\UsageLogs\</UsageLogLocation>
+	<UsageLogMaxFileSizeKB>5120</UsageLogMaxFileSizeKB>
+
+	<AppServerName1>SPAPP01</AppServerName1>
+	<AppServerName2>SPAPP02</AppServerName2>	
+	<WebServerName1>SPWEB01</WebServerName1>
+	<WebServerName2>SPWEB02</WebServerName2>
+	<CacheServerName1>SPDCache01</CacheServerName1>
+	<CacheServerName2>SPDCache02</CacheServerName2>	
+	<SrchServerName1>SPQuery01</SrchServerName1>
+	<SrchServerName2>SPQuery02</SrchServerName2>
+	<SrchServerName3>SPCrawl01</SrchServerName3>
+	<SrchServerName4>SPCrawl02</SrchServerName4>
+
+	<StateServiceName>State Service Application</StateServiceName>
+	<StateServiceDBName>SP_Service_State</StateServiceDBName>
+</Configuration>
